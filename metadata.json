@@ -1,0 +1,7 @@
+{
+  "name": "Balaji Dental Clinic",
+  "description": "Premium modern website ecosystem & unified appointment command center for Balaji Dental Clinic aggregating bookings from Remedo, Dr. Klick, and the clinic website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
