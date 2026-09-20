@@ -13,6 +13,10 @@ import {
   Treatment
 } from '../types';
 
+import bracesBeforeOverbite from '../assets/images/braces_before_overbite_1788334694830.jpg';
+import bracesAfterSmile from '../assets/images/braces_after_smile_1788334710509.jpg';
+import crowdingBeforeBraces from '../assets/images/crowding_before_braces_1788334731836.jpg';
+
 export const CLINIC_GOOGLE_MAPS_URL =
   'https://www.google.com/maps/place/Balaji+Dental+Clinic/@25.6171821,85.1232233,17z/data=!3m1!4b1!4m6!3m5!1s0x39ed5838210a770f:0xf917268ee4342675!8m2!3d25.6171773!4d85.1257982!16s%2Fg%2F11g9jzz95f?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D';
 
@@ -1291,8 +1295,8 @@ export const initialBeforeAfterCases: BeforeAfterCase[] = [
     duration: '12 Months',
     patientAge: 21,
     description: 'Correction of severe Class II deep overbite, forward protruding teeth, and arch irregularity using ceramic aesthetic braces. Restored optimal occlusion and facial balance.',
-    beforeImage: '/src/assets/images/braces_before_overbite_1788334694830.jpg',
-    afterImage: '/src/assets/images/braces_after_smile_1788334710509.jpg',
+    beforeImage: bracesBeforeOverbite,
+    afterImage: bracesAfterSmile,
     category: 'Orthodontics'
   },
   {
@@ -1303,8 +1307,8 @@ export const initialBeforeAfterCases: BeforeAfterCase[] = [
     duration: '14 Months',
     patientAge: 24,
     description: 'Complex overlapping lower and upper anterior teeth straightened with non-extraction orthodontic expansion, achieving flawless arch alignment.',
-    beforeImage: '/src/assets/images/crowding_before_braces_1788334731836.jpg',
-    afterImage: '/src/assets/images/braces_after_smile_1788334710509.jpg',
+    beforeImage: crowdingBeforeBraces,
+    afterImage: bracesAfterSmile,
     category: 'Orthodontics'
   },
   {
